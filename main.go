@@ -9,7 +9,7 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("Usage: go run main.go [directory]")
+		fmt.Println("Usage: dotdelete.exe [directory]")
 		return
 	}
 	rootDir := os.Args[1]
